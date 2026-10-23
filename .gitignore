@@ -1,0 +1,29 @@
+# --- Obsidian ---
+# Se versiona la configuración compartida (.obsidian/ con plugins como Dataview),
+# pero no el estado personal de cada usuario, que cambia cada vez que se abre el vault.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# Si preferís NO compartir la config de Obsidian con el equipo, reemplazá lo de arriba por:
+# .obsidian/
+
+# --- Claude Code ---
+# Configuración personal/local (la compartida, .claude/settings.json, sí se versiona).
+.claude/settings.local.json
+CLAUDE.local.md
+
+# --- Secretos ---
+.env
+.env.*
+*.pem
+*.key
+
+# --- Sistema operativo / editores ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.swp
+~$*
